@@ -160,6 +160,14 @@
             background: linear-gradient(135deg, #fffaf0, #f5f7fb);
         }
 
+        .certificate-image {
+            display: block;
+            max-width: 100%;
+            max-height: 18rem;
+            object-fit: contain;
+            border-radius: .5rem;
+        }
+
         .icon-box {
             display: inline-grid;
             width: 2.8rem;
@@ -436,14 +444,10 @@
                     <div class="col">
                         <article class="content-card">
                             <div class="certificate-frame" aria-label="Tempat pratinjau sertifikat pertama">
-                                <div class="text-center p-3">
-                                    <span class="icon-box mb-3" aria-hidden="true">★</span>
-                                    <p class="fw-bold mb-1">Tempat sertifikat</p>
-                                    <p class="small text-muted-custom mb-0">Letakkan gambar sertifikat di sini</p>
-                                </div>
+                                <img class="certificate-image" src="image/sertifroyen.png"
+                                    alt="Sertifikat Royen">
                             </div>
-                            <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat 1</h3>
-                            <p class="small text-muted-custom mb-0">Tambahkan nama sertifikat dan penyelenggara.</p>
+                            <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat Royen</h3>
                         </article>
                     </div>
                     <div class="col">
@@ -474,7 +478,7 @@
                     </div>
                 </div>
                 <p class="small text-muted-custom mt-3 mb-0">Untuk menampilkan sertifikat, simpan gambarnya di folder
-                    <code>image</code>, lalu ganti area placeholder dengan elemen gambar.</p>
+                    <code>image</code>,.</p>
             </div>
         </section>
 
