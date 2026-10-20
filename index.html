@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="id">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portofolio Royen Hamonangan Parhusip, mahasiswa Sistem Informasi Universitas Dian Nuswantoro.">
+    <meta name="description"
+        content="Portofolio Royen Hamonangan Parhusip, mahasiswa Sistem Informasi Universitas Dian Nuswantoro.">
     <title>Portofolio | Royen Hamonangan Parhusip</title>
     <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -82,7 +84,7 @@
             line-height: 1.08;
         }
 
-        .hero-copy > p {
+        .hero-copy>p {
             max-width: 39rem;
             color: #c5cede;
             font-size: 1.08rem;
@@ -148,6 +150,16 @@
             padding: 1.75rem;
         }
 
+        .certificate-frame {
+            display: grid;
+            min-height: 12rem;
+            aspect-ratio: 1.414 / 1;
+            place-items: center;
+            border: 2px dashed #d5dce7;
+            border-radius: .8rem;
+            background: linear-gradient(135deg, #fffaf0, #f5f7fb);
+        }
+
         .icon-box {
             display: inline-grid;
             width: 2.8rem;
@@ -197,7 +209,7 @@
             box-shadow: 0 0 0 1px var(--accent);
         }
 
-        .table > :not(caption) > * > * {
+        .table> :not(caption)>*>* {
             padding: 1rem;
         }
 
@@ -253,6 +265,7 @@
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg sticky-top border-bottom" aria-label="Navigasi utama">
         <div class="container">
@@ -260,7 +273,8 @@
                 <span class="brand-mark">RH</span>
                 <span>Royen Hamonangan</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Buka navigasi">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation"
+                aria-controls="mainNavigation" aria-expanded="false" aria-label="Buka navigasi">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mainNavigation">
@@ -268,9 +282,11 @@
                     <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pendidikan">Pendidikan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sertifikat">Sertifikat</a></li>
                     <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
                     <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
-                    <li class="nav-item"><a class="btn btn-accent rounded-pill px-4" href="#kontak">Hubungi Saya</a></li>
+                    <li class="nav-item"><a class="btn btn-accent rounded-pill px-4" href="#kontak">Hubungi Saya</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -282,7 +298,8 @@
                 <div class="col-lg-7 py-4 hero-copy">
                     <p class="hero-kicker mb-3">Portofolio · Sistem Informasi</p>
                     <h1>Halo, saya Royen.<br><span class="text-warning">Senang berkenalan!</span></h1>
-                    <p class="mt-4 mb-4">Mahasiswa Sistem Informasi di Universitas Dian Nuswantoro yang tertarik pada pengembangan web, basis data, dan analisis sistem.</p>
+                    <p class="mt-4 mb-4">Mahasiswa Sistem Informasi di Universitas Dian Nuswantoro yang tertarik pada
+                        pengembangan web, basis data, dan analisis sistem.</p>
                     <div class="d-flex flex-wrap gap-3">
                         <a class="btn btn-accent btn-lg rounded-pill px-4" href="#proyek">Lihat Portofolio</a>
                         <a class="btn btn-outline-light btn-lg rounded-pill px-4" href="#profil">Tentang Saya</a>
@@ -306,14 +323,20 @@
                     <div class="col-lg-7">
                         <p class="section-kicker mb-2">Perkenalan</p>
                         <h2 class="section-title mb-4">Mengenal saya lebih dekat</h2>
-                        <p class="section-intro mb-3">Saya adalah mahasiswa aktif Program Studi Sistem Informasi di Fakultas Ilmu Komputer. Saya memiliki ketertarikan pada pengembangan aplikasi web, perancangan basis data, serta analisis sistem informasi.</p>
-                        <p class="section-intro mb-0">Saya senang mempelajari teknologi baru yang dapat membantu menyelesaikan permasalahan di bidang teknologi informasi. Melalui tugas dan proyek perkuliahan, saya terus berusaha meningkatkan pengetahuan dan keterampilan pemrograman serta merancang sistem yang mudah digunakan.</p>
+                        <p class="section-intro mb-3">Saya adalah mahasiswa aktif Program Studi Sistem Informasi di
+                            Fakultas Ilmu Komputer. Saya memiliki ketertarikan pada pengembangan aplikasi web,
+                            perancangan basis data, serta analisis sistem informasi.</p>
+                        <p class="section-intro mb-0">Saya senang mempelajari teknologi baru yang dapat membantu
+                            menyelesaikan permasalahan di bidang teknologi informasi. Melalui tugas dan proyek
+                            perkuliahan, saya terus berusaha meningkatkan pengetahuan dan keterampilan pemrograman serta
+                            merancang sistem yang mudah digunakan.</p>
                     </div>
                     <div class="col-lg-5">
                         <div class="info-card">
                             <span class="icon-box mb-3" aria-hidden="true">✦</span>
                             <h3 class="h5 fw-bold">Yang sedang saya pelajari</h3>
-                            <p class="text-muted-custom mb-3">Membangun fondasi yang kuat untuk membuat solusi digital yang berguna dan mudah dipakai.</p>
+                            <p class="text-muted-custom mb-3">Membangun fondasi yang kuat untuk membuat solusi digital
+                                yang berguna dan mudah dipakai.</p>
                             <div>
                                 <span class="skill-pill">Pengembangan Web</span>
                                 <span class="skill-pill">Basis Data</span>
@@ -331,7 +354,8 @@
                 <div class="mb-4">
                     <p class="section-kicker mb-2">Perjalanan belajar</p>
                     <h2 class="section-title mb-2">Riwayat pendidikan</h2>
-                    <p class="section-intro mb-0">Perjalanan pendidikan yang membentuk minat saya di bidang teknologi dan sistem informasi.</p>
+                    <p class="section-intro mb-0">Perjalanan pendidikan yang membentuk minat saya di bidang teknologi
+                        dan sistem informasi.</p>
                 </div>
                 <div class="content-card p-0 overflow-hidden">
                     <div class="table-responsive">
@@ -353,7 +377,8 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Perguruan Tinggi (S1)</th>
-                                    <td><a href="https://www.dinus.ac.id" target="_blank" rel="noopener noreferrer">Universitas Dian Nuswantoro</a></td>
+                                    <td><a href="https://www.dinus.ac.id" target="_blank"
+                                            rel="noopener noreferrer">Universitas Dian Nuswantoro</a></td>
                                     <td>2025–sekarang</td>
                                     <td>Sistem Informasi</td>
                                 </tr>
@@ -388,22 +413,68 @@
                             <span class="icon-box mb-3" aria-hidden="true">02</span>
                             <h3 class="h5 fw-bold">Hobi dan minat</h3>
                             <ul class="text-muted-custom ps-3 mb-0">
-                                <li class="mb-2">Membaca dokumentasi di <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+                                <li class="mb-2">Membaca dokumentasi di <a href="https://www.w3schools.com"
+                                        target="_blank" rel="noopener noreferrer">W3Schools</a></li>
                                 <li class="mb-2">Eksplorasi pembuatan aplikasi web</li>
                                 <li>Menulis</li>
                             </ul>
                         </article>
                     </div>
                 </div>
-                <div class="info-card mt-4" id="sertifikat">
-                    <div class="d-flex flex-column flex-sm-row align-items-sm-center gap-3">
-                        <span class="icon-box flex-shrink-0" aria-hidden="true">★</span>
-                        <div>
-                            <h3 class="h5 fw-bold mb-1">Sertifikat</h3>
-                            <p class="text-muted-custom mb-0">Sertifikat belum tersedia untuk ditampilkan. Pratinjau dapat ditambahkan di sini saat file sertifikat tersedia.</p>
-                        </div>
+            </div>
+        </section>
+
+        <section class="section-space soft-section" id="sertifikat">
+            <div class="container">
+                <div class="mb-4">
+                    <p class="section-kicker mb-2">Pencapaian</p>
+                    <h2 class="section-title mb-2">Sertifikat</h2>
+                    <p class="section-intro mb-0">Tempat untuk menampilkan sertifikat dan pencapaian yang telah saya
+                        peroleh.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <article class="content-card">
+                            <div class="certificate-frame" aria-label="Tempat pratinjau sertifikat pertama">
+                                <div class="text-center p-3">
+                                    <span class="icon-box mb-3" aria-hidden="true">★</span>
+                                    <p class="fw-bold mb-1">Tempat sertifikat</p>
+                                    <p class="small text-muted-custom mb-0">Letakkan gambar sertifikat di sini</p>
+                                </div>
+                            </div>
+                            <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat 1</h3>
+                            <p class="small text-muted-custom mb-0">Tambahkan nama sertifikat dan penyelenggara.</p>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="content-card">
+                            <div class="certificate-frame" aria-label="Tempat pratinjau sertifikat kedua">
+                                <div class="text-center p-3">
+                                    <span class="icon-box mb-3" aria-hidden="true">★</span>
+                                    <p class="fw-bold mb-1">Tempat sertifikat</p>
+                                    <p class="small text-muted-custom mb-0">Letakkan gambar sertifikat di sini</p>
+                                </div>
+                            </div>
+                            <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat 2</h3>
+                            <p class="small text-muted-custom mb-0">Tambahkan nama sertifikat dan penyelenggara.</p>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="content-card">
+                            <div class="certificate-frame" aria-label="Tempat pratinjau sertifikat ketiga">
+                                <div class="text-center p-3">
+                                    <span class="icon-box mb-3" aria-hidden="true">★</span>
+                                    <p class="fw-bold mb-1">Tempat sertifikat</p>
+                                    <p class="small text-muted-custom mb-0">Letakkan gambar sertifikat di sini</p>
+                                </div>
+                            </div>
+                            <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat 3</h3>
+                            <p class="small text-muted-custom mb-0">Tambahkan nama sertifikat dan penyelenggara.</p>
+                        </article>
                     </div>
                 </div>
+                <p class="small text-muted-custom mt-3 mb-0">Untuk menampilkan sertifikat, simpan gambarnya di folder
+                    <code>image</code>, lalu ganti area placeholder dengan elemen gambar.</p>
             </div>
         </section>
 
@@ -413,7 +484,8 @@
                     <div class="col-lg-5">
                         <p class="section-kicker mb-2">Yang pernah dikerjakan</p>
                         <h2 class="section-title mb-3">Proyek &amp; aktivitas akademik</h2>
-                        <p class="section-intro mb-0">Latihan perkuliahan menjadi kesempatan untuk menerapkan konsep dan mengembangkan keterampilan secara bertahap.</p>
+                        <p class="section-intro mb-0">Latihan perkuliahan menjadi kesempatan untuk menerapkan konsep dan
+                            mengembangkan keterampilan secara bertahap.</p>
                     </div>
                     <div class="col-lg-7">
                         <article class="content-card">
@@ -422,7 +494,8 @@
                                 <div>
                                     <p class="section-kicker mb-2">Pemrograman Web</p>
                                     <h3 class="h4 fw-bold">Tugas Pemrograman Web 1</h3>
-                                    <p class="text-muted-custom mb-3">Pembuatan halaman profil dan formulir interaktif menggunakan elemen semantik HTML, tabel terstruktur, dan elemen input form.</p>
+                                    <p class="text-muted-custom mb-3">Pembuatan halaman profil dan formulir interaktif
+                                        menggunakan elemen semantik HTML, tabel terstruktur, dan elemen input form.</p>
                                     <span class="skill-pill">HTML</span>
                                     <span class="skill-pill">Formulir</span>
                                     <span class="skill-pill">Elemen semantik</span>
@@ -431,7 +504,9 @@
                         </article>
                         <aside class="mt-3 px-2 text-muted-custom">
                             <strong class="text-dark">Catatan kampus:</strong>
-                            Informasi jadwal perkuliahan dan kurikulum dapat dilihat di <a href="https://mhs.dinus.ac.id" target="_blank" rel="noopener noreferrer">SiAdin Udinus</a>.
+                            Informasi jadwal perkuliahan dan kurikulum dapat dilihat di <a
+                                href="https://mhs.dinus.ac.id" target="_blank" rel="noopener noreferrer">SiAdin
+                                Udinus</a>.
                         </aside>
                     </div>
                 </div>
@@ -445,28 +520,33 @@
                         <div class="col-lg-5">
                             <p class="section-kicker mb-2">Mari terhubung</p>
                             <h2 class="section-title mb-3">Ada pesan untuk saya?</h2>
-                            <p class="text-muted-custom mb-0">Isi formulir berikut untuk mengirimkan pesan. Saya senang menerima pertanyaan, masukan, maupun ajakan berdiskusi.</p>
+                            <p class="text-muted-custom mb-0">Isi formulir berikut untuk mengirimkan pesan. Saya senang
+                                menerima pertanyaan, masukan, maupun ajakan berdiskusi.</p>
                         </div>
                         <div class="col-lg-7">
                             <form action="simpan.php" method="post">
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <label class="form-label" for="fnama">Nama lengkap</label>
-                                        <input class="form-control" type="text" id="fnama" name="fnama" autocomplete="name" required>
+                                        <input class="form-control" type="text" id="fnama" name="fnama"
+                                            autocomplete="name" required>
                                     </div>
                                     <div class="col-md-6">
                                         <label class="form-label" for="femail">Email</label>
-                                        <input class="form-control" type="email" id="femail" name="femail" autocomplete="email" required>
+                                        <input class="form-control" type="email" id="femail" name="femail"
+                                            autocomplete="email" required>
                                     </div>
                                     <fieldset class="col-12">
                                         <legend class="form-label fs-6 mb-2">Jenis kelamin</legend>
                                         <div class="d-flex gap-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" id="pria" name="fjkel" value="Pria">
+                                                <input class="form-check-input" type="radio" id="pria" name="fjkel"
+                                                    value="Pria">
                                                 <label class="form-check-label" for="pria">Pria</label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" id="wanita" name="fjkel" value="Wanita">
+                                                <input class="form-check-input" type="radio" id="wanita" name="fjkel"
+                                                    value="Wanita">
                                                 <label class="form-check-label" for="wanita">Wanita</label>
                                             </div>
                                         </div>
@@ -483,22 +563,27 @@
                                         <legend class="form-label fs-6 mb-2">Hobi / minat</legend>
                                         <div class="d-flex gap-4">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="coding" name="fhobi[]" value="Coding">
+                                                <input class="form-check-input" type="checkbox" id="coding"
+                                                    name="fhobi[]" value="Coding">
                                                 <label class="form-check-label" for="coding">Coding</label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="reading" name="fhobi[]" value="Membaca">
+                                                <input class="form-check-input" type="checkbox" id="reading"
+                                                    name="fhobi[]" value="Membaca">
                                                 <label class="form-check-label" for="reading">Membaca</label>
                                             </div>
                                         </div>
                                     </fieldset>
                                     <div class="col-12">
                                         <label class="form-label" for="fpesan">Pesan</label>
-                                        <textarea class="form-control" id="fpesan" name="fpesan" rows="4" required></textarea>
+                                        <textarea class="form-control" id="fpesan" name="fpesan" rows="4"
+                                            required></textarea>
                                     </div>
                                     <div class="col-12 d-flex flex-wrap gap-2 pt-2">
-                                        <button class="btn btn-accent rounded-pill px-4" type="submit">Kirim pesan</button>
-                                        <button class="btn btn-outline-light rounded-pill px-4" type="reset">Kosongkan</button>
+                                        <button class="btn btn-accent rounded-pill px-4" type="submit">Kirim
+                                            pesan</button>
+                                        <button class="btn btn-outline-light rounded-pill px-4"
+                                            type="reset">Kosongkan</button>
                                     </div>
                                 </div>
                             </form>
@@ -518,4 +603,5 @@
 
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
