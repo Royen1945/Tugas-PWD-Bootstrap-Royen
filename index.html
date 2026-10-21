@@ -165,9 +165,8 @@
 
         .certificate-frame {
             display: grid;
-            min-height: 12rem;
-            aspect-ratio: 1.414 / 1;
             place-items: center;
+            padding: .75rem;
             border: 2px dashed #d5dce7;
             border-radius: .8rem;
             background: linear-gradient(135deg, #fffaf0, #f5f7fb);
@@ -175,8 +174,10 @@
 
         .certificate-image {
             display: block;
+            width: auto;
             max-width: 100%;
             max-height: 18rem;
+            height: auto;
             object-fit: contain;
             border-radius: .5rem;
         }
@@ -491,35 +492,7 @@
                             <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat Royen</h3>
                         </article>
                     </div>
-                    <div class="col">
-                        <article class="content-card">
-                            <div class="certificate-frame" aria-label="Tempat pratinjau sertifikat kedua">
-                                <div class="text-center p-3">
-                                    <span class="icon-box mb-3" aria-hidden="true">★</span>
-                                    <p class="fw-bold mb-1">Tempat sertifikat</p>
-                                    <p class="small text-muted-custom mb-0">Letakkan gambar sertifikat di sini</p>
-                                </div>
-                            </div>
-                            <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat 2</h3>
-                            <p class="small text-muted-custom mb-0">Tambahkan nama sertifikat dan penyelenggara.</p>
-                        </article>
-                    </div>
-                    <div class="col">
-                        <article class="content-card">
-                            <div class="certificate-frame" aria-label="Tempat pratinjau sertifikat ketiga">
-                                <div class="text-center p-3">
-                                    <span class="icon-box mb-3" aria-hidden="true">★</span>
-                                    <p class="fw-bold mb-1">Tempat sertifikat</p>
-                                    <p class="small text-muted-custom mb-0">Letakkan gambar sertifikat di sini</p>
-                                </div>
-                            </div>
-                            <h3 class="h6 fw-bold mt-3 mb-1">Sertifikat 3</h3>
-                            <p class="small text-muted-custom mb-0">Tambahkan nama sertifikat dan penyelenggara.</p>
-                        </article>
-                    </div>
                 </div>
-                <p class="small text-muted-custom mt-3 mb-0">Untuk menampilkan sertifikat, simpan gambarnya di folder
-                    <code>image</code>.</p>
             </div>
         </section>
 
