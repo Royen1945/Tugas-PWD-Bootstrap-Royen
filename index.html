@@ -32,6 +32,18 @@
             backdrop-filter: blur(12px);
         }
 
+        .navbar-brand {
+            min-width: 0;
+        }
+
+        .navbar-brand > span:last-child {
+            overflow-wrap: anywhere;
+        }
+
+        .navbar-toggler {
+            flex-shrink: 0;
+        }
+
         .brand-mark {
             display: inline-grid;
             width: 2.5rem;
@@ -135,6 +147,7 @@
 
         .info-card,
         .content-card {
+            min-width: 0;
             height: 100%;
             border: 1px solid #e8ecf2;
             border-radius: 1.1rem;
@@ -269,6 +282,34 @@
         @media (max-width: 767.98px) {
             .section-space {
                 padding-block: 4rem;
+            }
+
+            .row.g-5 {
+                --bs-gutter-x: 1.5rem;
+            }
+
+            .hero .row {
+                min-height: 0;
+            }
+
+            .hero h1 {
+                font-size: clamp(2.15rem, 9vw, 3.5rem);
+            }
+
+            .table-responsive {
+                overscroll-behavior-x: contain;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .content-card,
+            .info-card {
+                padding: 1.25rem;
+            }
+
+            .hero .btn-lg {
+                --bs-btn-padding-x: 1.1rem;
+                --bs-btn-font-size: 1rem;
             }
         }
     </style>
@@ -478,7 +519,7 @@
                     </div>
                 </div>
                 <p class="small text-muted-custom mt-3 mb-0">Untuk menampilkan sertifikat, simpan gambarnya di folder
-                    <code>image</code>,.</p>
+                    <code>image</code>.</p>
             </div>
         </section>
 
@@ -605,7 +646,7 @@
         </div>
     </footer>
 
-    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
